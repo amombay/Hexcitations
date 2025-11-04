@@ -29,7 +29,16 @@ For this project, we aim to implement the following project phases to model our 
 
 Along with each phase of the project, we aim to implement the following modeling approach:
 - Physical Modeling: To create the filaments, we plan on use linkages cast from a silicone mold to join the Hexbugs. This allows for semi-constrained movement along the x and y axes. A 3D-printed cage placed on top of each Hexbug allows the linkage to be affixed via prongs, as well as a show a T-shaped tracking marker to be utilized in MATLAB image processing.
-- Data Collection: For each phase of this experiment, we use MATLAB particle tracking to track the relative displacements and velocities of each particle (x, y, theta) to the fixed base. This allows us to consistently measure the tracked values of the Hexbug’s movement. We can break down their behavior based on their position, velocity, angle of movement, and general error due to inconsistencies in the hexbugs and the surface. In particular for phase III, we collect mean curvature and polarization data for varying configurations of the apparatus upon changing shape and length of connection beam, length of filament, number of hexbugs on each filament. 
+- Data Collection: For each phase of this experiment, we use MATLAB particle tracking to track the relative displacements and velocities of each particle (x, y, theta) to the fixed base. This allows us to consistently measure the tracked values of the Hexbug’s movement. We can break down their behavior based on their position, velocity, angle of movement, and general error due to inconsistencies in the hexbugs and the surface. In particular for phase III, we collect mean curvature and polarization data for varying configurations of the apparatus upon changing shape and length of connection beam, length of filament, number of hexbugs on each filament.
+  -   To utilize the "track_hexbugs_click_with_scale.m" file, the user will first begin with:
+  -  <img width="678" height="606" alt="image" src="https://github.com/user-attachments/assets/4be04221-dc21-4aee-9022-f7eab71074f3" />
+  -   Then, the user will proceed as follows:
+  -   <img width="211" height="191" alt="image" src="https://github.com/user-attachments/assets/8fe84c05-c880-4d5c-ad1f-33bb46b43232" />
+  -   Finally, the user will proceed as follows:
+  -   <img width="795" height="706" alt="image" src="https://github.com/user-attachments/assets/d4579000-82f7-4373-8bee-268ebbdd88d5" />
+
+  
+
 
 As of now, we have found the following:
 - Influence of Preliminary Findings: Throughout our phase I modeling process, we’ve evolved the physical setup of the experiment, through iteration of the cages and linkages. This has allowed us to understand which experimental setup is best for collecting position and velocity data, and easiest to recreate. Having the connection point of the Hexbugs above the surface on which they move helps to reduce friction and show increased movement. Therefore, we look to continue linking the filament via the 3D printed cages that sit atop the Hexbugs.
