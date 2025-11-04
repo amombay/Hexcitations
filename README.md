@@ -30,11 +30,11 @@ For this project, we aim to implement the following project phases to model our 
 Along with each phase of the project, we aim to implement the following modeling approach:
 - Physical Modeling: To create the filaments, we plan on use linkages cast from a silicone mold to join the Hexbugs. This allows for semi-constrained movement along the x and y axes. A 3D-printed cage placed on top of each Hexbug allows the linkage to be affixed via prongs, as well as a show a T-shaped tracking marker to be utilized in MATLAB image processing.
 - Data Collection: For each phase of this experiment, we use MATLAB particle tracking to track the relative displacements and velocities of each particle (x, y, theta) to the fixed base. This allows us to consistently measure the tracked values of the Hexbug’s movement. We can break down their behavior based on their position, velocity, angle of movement, and general error due to inconsistencies in the hexbugs and the surface. In particular for phase III, we collect mean curvature and polarization data for varying configurations of the apparatus upon changing shape and length of connection beam, length of filament, number of hexbugs on each filament.
-  -   To utilize the "track_hexbugs_click_with_scale.m" file, the user will first begin with:
+  -   To utilize the "track_hexbugs_click_with_scale.m" file, the user will first begin with calibration, clicking two points of known length:
   -  <img width="678" height="606" alt="image" src="https://github.com/user-attachments/assets/4be04221-dc21-4aee-9022-f7eab71074f3" />
-  -   Then, the user will proceed as follows:
+  -   Then, the user will enter a reference length as follows to ensure proper scaling:
   -   <img width="211" height="191" alt="image" src="https://github.com/user-attachments/assets/8fe84c05-c880-4d5c-ad1f-33bb46b43232" />
-  -   Finally, the user will proceed as follows:
+  -   Finally, the user will click the center of each hexbug to generate plots/ analytical findings:
   -   <img width="795" height="706" alt="image" src="https://github.com/user-attachments/assets/d4579000-82f7-4373-8bee-268ebbdd88d5" />
 
   
