@@ -15,5 +15,16 @@ This repository contains the following folders:
 
 Background: Our project aims to study active particles and observe the collective behaviors and aggregated movement emergent upon coupling. In-depth research in this field occurred due to the development of high definition photography which allowed for the detailed scaling of the limb movements for invertebrates and vertebrates. The locomotive functions of the animal's appendages were linked to a central pattern generator in each organism, demonstrating that active particle are driven by autonomous collective movements without the direct influence of a central force. We look to create an accurate model for an adjustable linked filament to mimic cilia-like behaviors by utilizing Hexbugs and 3D-printed Hexbug-like particles to serve as a macroscopic version of the often microscopic particles referenced in the relevant literature. We will create both a battery based and direct voltage sourced filament before applying our filament to model the appendage based movement of a jellyfish. This will allow us to explore how different orientations and combinations of filament power and length affect the velocity of our model’s movement.
 
-        <img width="242" height="245" alt="image" src="https://github.com/user-attachments/assets/54e51da5-6f73-411e-a89b-b1a28432ce70" />
+The key questions we hope to address are as follows:
+- How can we build a cilia-like filament by employing 3D-printable hexbugs and mechatronic principles?
+- How do different orientations of hexbug coupling influence their collective actuation?
+- How does torsional stiffness influence synchronization and sustained oscillations in elastic networks?
+- Can we achieve biomimicry with our model?
+
+For this project, we aim to implement the following project phases to model our project:
+- PHASE I: We utilize Hexbug Nanos from the Harris lab as the macroscopic active particles within the filament. We provide a linkage point made from a silicone mold between each discrete bug. The filament will be attached to one fixed non-powered source, such as a cilia attached to the parent body.
+- PHASE II: We 3D print and construct Hexbugs that can be connected via wiring to a fixed direct voltage source, eliminating the need of the battery powered Hexbug Nanos. This design will be modular to allow for adjustable filament length and attachments.
+- PHASE III: We engage with the concept of biomimicry using the DV-source based filament design. We attach multiple appendages to one unfixed central body, mimicking a jellyfish, investigating the Hexbug orientations that generate the most thrust considering different lengths and numbers of cilia attached to the beam.
+
+
 
