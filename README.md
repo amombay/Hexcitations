@@ -1,6 +1,13 @@
 # Hexcitations
 ENGN1735: Vibrations of Mechanical Systems Design Project, Active Particles
-<img width="314" height="313" alt="image" src="https://github.com/user-attachments/assets/88b5934d-8d61-4d0b-ace9-34c5be7b0b7e" />
+<div align="center">
+  <img
+    src="https://github.com/user-attachments/assets/88b5934d-8d61-4d0b-ace9-34c5be7b0b7e"
+    width="314"
+    height="313"
+    alt="image"
+  />
+</div>
 
 
 Hexcitations is a design project for Brown University's School of Engineering course, ENGN1735: Vibrations of Mechanical Systems, completed by Andrew Mombay, Kaya Bruno, Helen Primis, and Sarah Nguyen in collaboration with the Harris Lab inclusive of Jack-William Barotta and Daniel Harris.
