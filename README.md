@@ -21,13 +21,17 @@ This repository contains the following folders:
 
 Background: Our project aims to study active particles and observe the collective behaviors and aggregated movement emergent upon coupling through a hexbug-based computational and physical model. In-depth research in this field occurred due to the development of high definition photography which allowed for the detailed scaling of the limb movements for invertebrates and vertebrates. The locomotive functions of the animal's appendages were linked to a central pattern generator in each organism, demonstrating that active particle are driven by autonomous collective movements without the direct influence of a central force. We look to create an accurate model for an adjustable linked filament to mimic cilia-like behaviors by utilizing Hexbugs and 3D-printed Hexbug-like particles to serve as a macroscopic version of the often microscopic particles referenced in the relevant literature. 
 
-The key questions we hope to address are as follows:
-- 
+Key Goals
+- Create an accurate model for an adjustable linked filament to mimic cilia-like behaviors by utilizing Hexbugs, exploring the interplay between the filament elasticity and activity
+- Observe and analyze the collective synchronization behavior emergent upon coupling Hexbug active particles with variable bendability
+- Investigate four-legged gaits, representative of quadriflagellates by attaching multiple Hexbug filaments to a center pin
+
 
 Along with each phase of the project, we aim to implement the following modeling approach:
-- Physical Modeling: To create the filaments, we plan on use linkages cast from a silicone mold to join the Hexbugs. This allows for semi-constrained movement along the x and y axes. A 3D-printed cage placed on top of each Hexbug allows the linkage to be affixed via prongs, as well as a show a QR code tracking marker to be utilized in Python image processing.
-- Mathematical Modeling: To evaluate the agreement with our physical model, 
-- Data Collection: For each phase of this experiment, we use MATLAB particle tracking to track the relative displacements and velocities of each particle (x, y, theta) to the fixed base. This allows us to consistently measure the tracked values of the Hexbug’s movement. We can break down their behavior based on their position, velocity, angle of movement, and general error due to inconsistencies in the hexbugs and the surface. In particular for phase III, we collect mean curvature and polarization data for varying configurations of the apparatus upon changing shape and length of connection beam, length of filament, number of hexbugs on each filament.
+- Physical Modeling: To create the filaments, we plan on using linkages cast from a silicone mold to join the Hexbugs. This allows for semi-constrained movement along the x and y axes. A 3D-printed cage placed on top of each Hexbug allows the linkage to be affixed via prongs, as well as a show a QR code tracking marker to be utilized in Python image processing.
+- Mathematical Modeling: Varying lengths of all of the silicone linkages cause the filaments as a whole to have different propensities to bend. To calculate the bendability of the filaments (elastoactive parameter), we first calculate the spring constants to verify the Young’s Modulus. We do this using image processing in MATLAB and can then calculate the corresponding torsional stiffness values and elastoactive parameter. 
+- Data Collection: For each phase of this experiment, we use Python ArUco tracking to track the relative position and angular displacement of each Hexbug when fixed at a center point. Using these two elements, we can calculate the mean curvature and polarization for varying configurations of the apparatus upon changing the shape and length of the connection beam, the length of the filament, and the number of hexbugs on each filament.
+
 
 As of now, we have found the following:
 - Influence of Preliminary Findings: Throughout our phase I modeling process, we’ve evolved the physical setup of the experiment, through iteration of the cages and linkages. This has allowed us to understand which experimental setup is best for collecting position and velocity data, and easiest to recreate. Having the connection point of the Hexbugs above the surface on which they move helps to reduce friction and show increased movement. Therefore, we look to continue linking the filament via the 3D printed cages that sit atop the Hexbugs.
