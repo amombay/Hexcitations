@@ -30,6 +30,7 @@ This repository contains the following folders:
  - Tracking: This folder contains python files to track the hexbug filament. This is our final tracking software, utilizing the QR code method to process our videos.
 - Written Remarks: This folder contains all written statements produced by the group, inclusive of our presentations, written materials produced (literature reviews, final written report, and more), our bill of materials, sustainability poster, and materials flow sheet.
 
+## Background, Goals, & Modeling Approach
 Background: Our project aims to study active particles and observe the collective behaviors and aggregated movement emergent upon coupling through a hexbug-based computational and physical model. In-depth research in this field occurred due to the development of high definition photography which allowed for the detailed scaling of the limb movements for invertebrates and vertebrates. The locomotive functions of the animal's appendages were linked to a central pattern generator in each organism, demonstrating that active particle are driven by autonomous collective movements without the direct influence of a central force. We look to create an accurate model for an adjustable linked filament to mimic cilia-like behaviors by utilizing Hexbugs and 3D-printed Hexbug-like particles to serve as a macroscopic version of the often microscopic particles referenced in the relevant literature. 
 
 Key Goals
@@ -37,13 +38,12 @@ Key Goals
 - Observe and analyze the collective synchronization behavior emergent upon coupling Hexbug active particles with variable bendability
 - Investigate four-legged gaits, representative of quadriflagellates by attaching multiple Hexbug filaments to a center pin
 
-
 Along with each phase of the project, we aim to implement the following modeling approach:
 - Physical Modeling: To create the filaments, we plan on using linkages cast from a silicone mold to join the Hexbugs. This allows for semi-constrained movement along the x and y axes. A 3D-printed cage placed on top of each Hexbug allows the linkage to be affixed via prongs, as well as a show a QR code tracking marker to be utilized in Python image processing.
 - Mathematical Modeling: Varying lengths of all of the silicone linkages cause the filaments as a whole to have different propensities to bend. To calculate the bendability of the filaments (elastoactive parameter), we first calculate the spring constants to verify the Young’s Modulus. We do this using image processing in MATLAB and can then calculate the corresponding torsional stiffness values and elastoactive parameter. 
 - Data Collection: For each phase of this experiment, we use Python ArUco tracking to track the relative position and angular displacement of each Hexbug when fixed at a center point. Using these two elements, we can calculate the mean curvature and polarization for varying configurations of the apparatus upon changing the shape and length of the connection beam, the length of the filament, and the number of hexbugs on each filament.
 
-
+## Findings & Future Directions
 As of now, we have found the following:
 - insert
 
@@ -72,7 +72,7 @@ Additionally, we pose the following questions as we continue our work:
 - Explore synchrony conditions
   - Through improving both the tracking and physical model, we would be able to begin enhancing our investigation into synchronization of our multi-filament model of which our findings would prove to be extremely beneficial to the scientific community in exploring how to model active particles to simulate real-world phenomenon.
 
-
+## Building and Operating Instructions
   In order to build our device, the following steps should be taken:
 - Hexbugs:
   - No direct modifications were made to the hexbugs themselves, however, prior to final modeling one should replace all batteries (LR44 coin batteries) in the hexbugs to ensure that power supplied is constant across all bugs.
