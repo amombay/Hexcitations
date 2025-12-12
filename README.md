@@ -73,6 +73,31 @@ Additionally, we pose the following questions as we continue our work:
   - Through improving both the tracking and physical model, we would be able to begin enhancing our investigation into synchronization of our multi-filament model of which our findings would prove to be extremely beneficial to the scientific community in exploring how to model active particles to simulate real-world phenomenon.
 
 
+  In order to build our device, the following steps should be taken:
+- Hexbugs:
+  - No direct modifications were made to the hexbugs themselves, however, prior to final modeling one should replace all batteries (LR44 coin batteries) in the hexbugs to ensure that power supplied is constant across all bugs.
+- 3D Printed Hexbug Cages:
+  - All hexbug cages were 3D printed using PLA filament and a BambuLabs A1 printed with an infill of 15%. Following printing, all supports were carefully removed and cages were visually inspected to ensure no damage had occurred.
+- Silicone Linkages:
+  - Molds were first 3D printed using PLA filament and a BambuLabs A1 printer with an infill of 15%. Four different molds were constructed of various lengths to measure the differences beam length had on bending motion of the filament. Following printing, all molds were visually inspected and supports were carefully removed to reduce the risk of breaking the mold. Our first renditions of the silicone molds were non-encapsulated whereas our final molds employed used a 2-piece, encapsulated system with pins used to ensure proper fit and mold orientation when casting.
+  - To create the silicone mixture, we used a 2-part mixture and utilized a scale to carefully measure out 20 grams part A and 20 grams part B of the mixture to ensure equal aliquots were used. This was then thoroughly mixed using a wooden popsicle stick and then poured carefully into the molds. Molds were purposefully overfilled to ensure all parts of the mold were uniformly filled. Molds were then cured in open-air conditions at 70F and humidities of 20-50% for at least 24 hours.
+  - Following a cure time of at least 24 hours, the linkages were then carefully pulled from their molds, visually inspected for any deformities, and excess silicone was trimmed off.
+- Central Body/ Hexbug ‘Station’:
+  - All versions of the hexbug station, circular, rectangular, and individual were 3D printed using PLA filament and a BambuLabs A1 printer with an infill of 15%. Following printing, all supports were carefully removed and the station was visually inspected to ensure no damage had occurred.
+- Hexbug Station and Hexbug Cage Silicone Clips:
+  - Both versions of the Hexbug silicone clips for the station and cages were 3D printed using PLA filament and a BambuLabs A1 printer with an infill of 15%. Following printing, all supports were carefully removed and the clips were visually inspected to ensure no damage had occurred.
+- QR Codes:
+  - All QR codes were printed on standard 8x11 A4 paper and carefully cut out to ensure the QR code had a white border to ensure accurate tracking due to the color of the Hexbug cage filament (black). 
+
+Upon finishing all individual components, the cages were placed on top of the Hexbug and adjusted until the fit was snug and the Hexbug was pushed as far forward as possible against the cage’s front ‘fence’ to ensure uniform fit across all hexbugs. The linkages were then placed into the pin and the PLA silicone clips were clamped down onto the linkage until snug. The frontmost cage was then connected to the station and the station silicone clip was used to secure the Hexbug filament to the station. Finally, double sided tape was used to secure the QR codes onto the back of each bug for tracking purposes.
+
+In order to operate our device, the following steps should be taken:
+- After the finalized assembly is complete, as described above, the full assembly was placed on a white backing sheet for contrast and a tripod was set up to record the filament’s oscillations.
+- Each bug was then individually turned on and the filament was then recorded. After recording was complete
+- All post-processing of the video was then conducted in Python.
+
+
+
 
 
 
