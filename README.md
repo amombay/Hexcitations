@@ -53,6 +53,15 @@ Additionally, we pose the following questions as we continue our work:
   - How can we best optimize and control cure conditions for the silicone linkages and how might other elastomer linkages impact our model? How do linkage length, stiffness, and cage geometry impact the range and modes of motion in our filament system?
   - How can we elicit multi-filament synchronization in Hexbug behavior? Is this theoretically plausible/ possible? To what extent can we see phase-locking and symmetrical movement compared to biological cilia?
 
+ Given all of our remaining questions and findings, we propose the following next steps:
+- Revise our physical model
+  - By developing our own DV-powered hexbug design, we’d get to see its motion unimpacted by commercial manufacturing and thus get to validate our model without taking into account defects in supplier processing. In addition, this would allow us to control the native skew present in commercially available hexbugs by modifying our own design to reduce any drift effects. In addition, by further controlling the silicone mold curing conditions, we’d be able to enhance the accuracy of our model and ensure reproducibility.
+- Improve our tracking software
+  - Currently, our tracking software can only handle calculating the mean polarization and the mean curvature of a one-filament system. Expanding on our project, ideally, we would want to be able to accurately track a multifilament system, correctly identifying and tracking what Hexbugs correlate to what filament and comparing their relative angular motion, mean polarization, and mean curvature.
+- Explore synchrony conditions
+  - Through improving both the tracking and physical model, we would be able to begin enhancing our investigation into synchronization of our multi-filament model of which our findings would prove to be extremely beneficial to the scientific community in exploring how to model active particles to simulate real-world phenomenon.
+
+
 
 
 
