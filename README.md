@@ -34,11 +34,27 @@ Along with each phase of the project, we aim to implement the following modeling
 
 
 As of now, we have found the following:
-- Influence of Preliminary Findings: Throughout our phase I modeling process, we’ve evolved the physical setup of the experiment, through iteration of the cages and linkages. This has allowed us to understand which experimental setup is best for collecting position and velocity data, and easiest to recreate. Having the connection point of the Hexbugs above the surface on which they move helps to reduce friction and show increased movement. Therefore, we look to continue linking the filament via the 3D printed cages that sit atop the Hexbugs.
-- Questions and Uncertainties: A question we have moving forward is determining the best way to tag the Hexbugs, ensuring the most accurate representation for processing in MATLAB.
-- Roadblocks and Challenges: Current challenges are finalizing the linkages between the Hexbugs and continuing to investigate silicone as the connecting material.
+- insert
 
-Our next steps are as follows:
-- Next Steps: We look to move forward into phase II of our modeling process, by printing and constructing Hexbugs that can be connected via wiring to a fixed direct voltage source. This includes experimenting with pager motors and circuitry.
+Currently, our model is complete and ready to explore further scientific modeling and synchronization phenomenon. That being said, additional functionality is entirely possible and is highly recommended to reduce error and enhance both the scope and applications of our model. This includes:
+- Building individual hexbugs to reduce any ‘drift’ error where the hexbugs have a general tendency to lean towards the right. Such drift is randomized, with some bugs seeing more significant drift than others due to manufacturing differences. As such, building our own hexbugs would eliminate this drift.
+- To control for power differences, we could link our individually built hexbugs to a central power supply and eliminate any differences in supplied power to each component.
+- To reduce issues in the silicone linkages, further work could be done on the encapsulated molds to prevent leakage and ensure the mold is completely full to reduce the error of excess silicone attached to the link. In addition, controlling the curing conditions with time, humidity, and temperature would enhance the accuracy of our results by unifying the material properties across all links.
+
+
+Additionally, we pose the following questions as we continue our work:
+- Coding/ Simulation Perspective
+    - How can we more robustly track the orientation and positioning of our hexbugs beyond QR code tracking? Is there a way to further minimize any sort of “skipping” when some bugs are enduring lots of rotation in a short amount of time?
+    - How can we reduce and/or better account for noise in our modeling?
+    - Is there a way for us to test the active force of our particular Hexbugs (commercially or in-house) and would this help our simulation mirror what we are seeing in real-life? 
+- Hardware and Design Perspective
+  - How can we create a DV-powered homemade model to better simulate collective behavior and brownian motion as opposed to our current model?
+  - How can we best implement our design to reduce Hexbug drift and skew towards one direction?
+  - How can we best optimize and control cure conditions for the silicone linkages and how might other elastomer linkages impact our model? How do linkage length, stiffness, and cage geometry impact the range and modes of motion in our filament system?
+  - How can we elicit multi-filament synchronization in Hexbug behavior? Is this theoretically plausible/ possible? To what extent can we see phase-locking and symmetrical movement compared to biological cilia?
+
+
+
+
 
 
