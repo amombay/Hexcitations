@@ -95,8 +95,7 @@ Upon finishing all individual components, the cages were placed on top of the He
 
 In order to operate our device, the following steps should be taken:
 - After the finalized assembly is complete, as described above, the full assembly was placed on a white backing sheet for contrast and a tripod was set up to record the filament’s oscillations.
-- Each bug was then individually turned on and the filament was then recorded. After recording was complete
-- All post-processing of the video was then conducted in Python.
+- Each bug was then individually turned on and the filament was then recorded. After recording was complete, videos were saved and all post-processing of the video was then conducted in Python and compared to the simulation predictions done in MATLAB.
 
 
 
